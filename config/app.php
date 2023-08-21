@@ -70,7 +70,7 @@ return [
     |
     */
 
-    'timezone' => 'Europe/Moscow',
+    'timezone' => 'UTC',
 
     /*
     |--------------------------------------------------------------------------
@@ -168,7 +168,6 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        App\Providers\PersonalAccessTokenServiceProvider::class,
     ])->toArray(),
 
     /*
